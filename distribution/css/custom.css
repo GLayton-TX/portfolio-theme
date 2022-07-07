@@ -1,21 +1,39 @@
 /* your styles go here */
+:root {
+    --primary-color: #2bacc9;
+    --secondary-color: #ff3b3f;
+    --call-color: orange;
+    --dark-color: #6a6a6a;
+    --white-color: #f4f4f4;
+    --background-color: #efefef;
+}
+
 nav.navbar a.nav-link.active,
 nav.navbar a.nav-link:hover {
-    color: #333;
-    border-top-color: #ff3b3f;
+    color: var(--secondary-color);
+    border-top-color: var(--secondary-color);
 }
+
+nav.navbar {
+    background-color: var(--dark-color);
+}
+
+nav.navbar a.nav-link {
+    color: var(--white-color);
+}
+
 
 @media (max-width: 1199.98px) {
 
     nav.navbar a.nav-link.active,
     nav.navbar a.nav-link:hover {
-        color: #ff3b3f;
+        color: var(--secondary-color);
     }
 }
 
 .bg-gradient {
-    background: -webkit-gradient(linear, left top, left bottom, from(#2bacc9), to(#81e0f6)) !important;
-    background: linear-gradient(to bottom, #2bacc9, #81e0f6) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--primary-color)), to(#81e0f6)) !important;
+    background: linear-gradient(to bottom, var(--primary-color), #81e0f6) !important;
     color: #fff;
 }
 
@@ -24,8 +42,8 @@ nav.navbar a.nav-link:hover {
     list-style-type: none;
     font-family: "Roboto Slab", serif;
     margin-bottom: 30px;
-    border-top: solid 1px #2bacc9;
-    border-bottom: solid 1px #2bacc9;
+    border-top: solid 1px var(--primary-color);
+    border-bottom: solid 1px var(--primary-color);
     margin: 0 10px 20px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -37,7 +55,7 @@ nav.navbar a.nav-link:hover {
     background: none;
     border: none;
     cursor: pointer;
-    color: #2bacc9;
+    color:var(--primary-color);
     outline: none;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -52,31 +70,51 @@ nav.navbar a.nav-link:hover {
 #filter li:hover a {
     color: #fff;
     text-decoration: none;
-    background: #2bacc9;
+    background: var(--primary-color);
 }
 
 .btn-outline-light {
-    color: #ff3b3f;
+    color: var(--secondary-color);
     background-color: transparent;
     background-image: none;
-    border-color: #ff3b3f;
+    border-color: var(--secondary-color);
 }
 
 .btn-outline-light:hover {
     color: #fff;
-    background-color: #ff3b3f;
-    border-color: #ff3b3f;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
 }
 
 .btn-outline-primary {
-    color: #ff3b3f;
+    color: var(--secondary-color);
     background-color: transparent;
     background-image: none;
-    border-color: #ff3b3f;
+    border-color: var(--secondary-color);
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #ff3b3f;
-    border-color: #ff3b3f;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    padding-right: 3rem;
+}
+
+footer .social>a {
+    color: var(--white-color);
+    opacity: .75;
+}
+
+footer .social>a:hover {
+    opacity: 0.9;
+    color: var(--secondary-color);
+}
+
+.copyright {
+    color: var(--primary-color);
 }

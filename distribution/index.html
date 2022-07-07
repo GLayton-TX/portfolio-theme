@@ -43,7 +43,7 @@
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <hr href="#intro" class="navbar-brand scrollTo"><img src="img/Branding/fullLogoLight.svg" alt="Greg Layton"
+        <hr href="#intro" class="navbar-brand scrollTo"><img src="img/Branding/fullLogoDark.svg" alt="Greg Layton"
           height="75"></a>
         <button type="button" data-toggle="collapse" data-target="#navbarcollapse"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
@@ -66,7 +66,7 @@
   <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;"
     class="intro-section pb-2">
     <div class="container text-center">
-      <div data-animate="fadeInDown" class="logo"><img src="img/Branding/logoDark.svg" alt="logo" width="130"></div>
+      <div data-animate="fadeInDown" class="logo"><img src="img/Branding/logoLight.svg" alt="logo" width="130"></div>
       <h1 data-animate="fadeInDown" class="text-shadow mb-5">Welcome</h1>
       <p data-animate="slideInUp" class="h3 text-shadow text-400">I want to grow my skills and career with you.</p>
     </div>
@@ -78,7 +78,7 @@
         <h2 data-animate="fadeInDown" class="title">About me</h2>
       </header>
       <div class="row">
-        <div data-animate="fadeInUp" class="col-lg-6">
+        <div data-animate="fadeInUp" class="col-lg-7 mt-3">
           <p>I am a Junior developer and problem solver. For years I have applied my various skills to repairing and
             creating solutions for customers.
             I have been a member of, and lead, teams that focused on providing efficient methods and workflows that
@@ -125,8 +125,8 @@
               </div>
             </div>
           </div> -->
-        <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/about.jpg"
-            alt="This is me - Greg Layton" class="image rounded-circle img-fluid"></div>
+        <div data-animate="fadeInUp" class="col-sm-5 mx-auto mt-0"><img src="img/pexels-lisa-5039042.jpg"
+            alt="This is me - Greg Layton" class="image rounded-sm img-fluid" width="70%"></div>
       </div>
     </div>
   </section>
@@ -295,13 +295,13 @@
         <ul id="filter" data-animate="fadeInUp">
           <li class="active"><a href="#" data-filter="all">All</a></li>
           <li><a href="#" data-filter="webdesign">Webdesign</a></li>
-          <li><a href="#" data-filter="seo">Javascript</a></li>
+          <li><a href="#" data-filter="javascript">Javascript</a></li>
           <li><a href="#" data-filter="marketing">Java</a></li>
           <li><a href="#" data-filter="other">Other</a></li>
         </ul>
         <div id="detail">
           <div class="row">
-            <div class="col-lg-10 mx-auto"><span class="close">×</span>
+            <div class="col-lg-10 mx-auto"><span class="close text-danger">×</span>
               <div id="detail-slider" class="owl-carousel owl-theme"></div>
               <div class="text-center">
                 <h1 id="detail-title" class="title"></h1>
@@ -310,7 +310,9 @@
             </div>
           </div>
         </div>
-        <!-- Reference detail-->
+        <!-- Project detail, formerly references-->
+
+        <!-- portfolio site -->
         <div id="references-masonry" data-animate="fadeInUp">
           <div class="row">
             <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
@@ -332,185 +334,169 @@
                   </p>
                   <p>Feel free to look around at my code using the links to this projects GitHub repo.</p>
                   <p class="buttons text-center"><a href="#intro" class="btn btn-outline-primary"><i
-                        class="fa fa-globe"></i> Visit website</a><a href="#"
+                        class="fa fa-globe"></i> Visit website</a><a
+                          href="https://github.com/GLayton-TX/portfolio-theme" target="_blank"
                       class="btn btn-outline-primary"><i class="fa fa-download"></i> Go To Repo</a></p>
                 </div>
               </div>
             </div>
-            <div data-category="seo" class="reference-item col-lg-3 col-md-6">
-              <div class="reference"><a href="#"><img src="img/portfolio-2.jpg" alt="" class="img-fluid">
+            <!-- centree -->
+            <div data-category="javascript" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img/CenTree/forest.png" alt="Tree Logo" class="img-fluid" width="80%">
                   <div class="overlay">
                     <div class="inner">
-                      <h3 class="h4 reference-title">Project name 2</h3>
-                      <p>Short project description goes here...</p>
+                      <h3 class="h4 reference-title">CenTree</h3>
+                      <p>JS Coding challenge
+                        Counting 1-100.</p>
                     </div>
                   </div>
                 </a>
-                <div data-images="img/main-slider3.jpg,img/main-slider1.jpg" class="sr-only reference-description">
-                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
-                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
-                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
-                    delicate an pleasant provided do perceive.</p>
-                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
-                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
-                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
-                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
-                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
-                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                <div data-images="img/CenTree/homePage.png,img/CenTree/code.png" class="sr-only reference-description">
+                  <p>Grow your own digital Tree! Enter in values from 0 to 100 and watch as Centree creates a list of
+                    numbers. Every Even number will be displayed as <b>BOLD</b>.</p>
+                  <p>This app is fully hosted for you to try or feel free to check out the raw code on GitHub.</p>
+                  <p class="buttons text-center"><a href="https://centree.netlify.app/index.html"
+                      class="btn btn-outline-primary" target="_blank"><i
+                        class="fa fa-globe"></i> Visit website</a><a href="https://github.com/GLayton-TX/Centree"
+                      class="btn btn-outline-primary" target="_blank"><i class="fa fa-download"></i> Go To Repo</a></p>
                 </div>
               </div>
             </div>
-            <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
-              <div class="reference"><a href="#"><img src="img/portfolio-3.jpg" alt="" class="img-fluid">
+            <!-- mirrorworld -->
+            <div data-category="javascript" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img\MirrorWorld\infinite.png" alt="Mirror World Logo" class="img-fluid" width="80%">
                   <div class="overlay">
                     <div class="inner">
-                      <h3 class="h4 reference-title">Project name 3</h3>
-                      <p>Short project description goes here...</p>
+                      <h3 class="h4 reference-title">Mirror World</h3>
+                      <p>JS Coding challenge
+                        String reversal.
+                      </p>
                     </div>
                   </div>
                 </a>
-                <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg"
+                <div data-images="img/MirrorWorld/homePage.png,img/MirrorWorld/code.png"
                   class="sr-only reference-description">
-                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
-                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
-                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
-                    delicate an pleasant provided do perceive.</p>
-                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
-                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
-                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
-                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
-                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
-                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                  <p>Flip what you thought you typed. This app will take in a string (series of Characters), reverse it, then display it back.
+                  </p>
+                  <p>This app is fully hosted for you to try or feel free to check out the raw code on GitHub.</p>
+                  <p class="buttons text-center">
+                      <a href="https://mirrorworld.netlify.app/" class="btn btn-outline-primary" target="_blank">
+                        <i class="fa fa-globe"></i> Visit website</a>
+                      <a href="https://github.com/GLayton-TX/MirrorWorld" class="btn btn-outline-primary" target="_blank">
+                        <i class="fa fa-download"></i> Go To Repo</a>
+                  </p>
                 </div>
               </div>
             </div>
-            <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
-              <div class="reference"><a href="#"><img src="img/portfolio-4.jpg" alt="" class="img-fluid">
+            <!-- fizzbuzz -->
+            <div data-category="javascript" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img/FizzBuzz/soda.png" alt="FizzBuzz Logo" class="img-fluid" width="80%">
                   <div class="overlay">
                     <div class="inner">
-                      <h3 class="h4 reference-title">Project name 4</h3>
-                      <p>Short project description goes here...</p>
+                      <h3 class="h4 reference-title">FizzBuzz</h3>
+                      <p>JS Coding challenge
+                        Display based on divisors.
+                      </p>
                     </div>
                   </div>
                 </a>
-                <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg"
-                  class="sr-only reference-description">
-                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
-                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
-                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
-                    delicate an pleasant provided do perceive.</p>
-                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
-                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
-                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
-                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
-                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
-                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                <div data-images="img/FizzBuzz/homePage.png,img/FizzBuzz/code.png" class="sr-only reference-description">
+                  <p>Display numbers between 1 to 100. For every multiple of 3 display "Fizz" instead of the number. For
+                    every multiple of 5 display "Buzz" instead of the number. For every multiple of 15 display both,
+                    making "FizzBuzz".
+                  </p>
+                  <p>This app is fully hosted for you to try or feel free to check out the raw code on GitHub.</p>
+                  <p class="buttons text-center">
+                    <a href="https://gl-fizzbuzz.netlify.app/" class="btn btn-outline-primary" target="_blank">
+                      <i class="fa fa-globe"></i> Visit website</a>
+                    <a href="https://github.com/GLayton-TX/FizzBuzz" class="btn btn-outline-primary" target="_blank">
+                      <i class="fa fa-download"></i> Go To Repo</a>
+                  </p>
                 </div>
               </div>
             </div>
-            <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
-              <div class="reference"><a href="#"><img src="img/portfolio-5.jpg" alt="" class="img-fluid">
+            <!-- RADAR -->
+            <div data-category="javascript" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img/RADAR/radar.png" alt="RADAR Logo"
+                    class="img-fluid" width="80%">
                   <div class="overlay">
                     <div class="inner">
-                      <h3 class="h4 reference-title">Project name 5</h3>
-                      <p>Short project description goes here...</p>
+                      <h3 class="h4 reference-title">RADAR</h3>
+                      <p>JS Coding challenge
+                        Check for Palindrome.
+                      </p>
                     </div>
                   </div>
                 </a>
-                <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg"
+                <div data-images="img/RADAR/homePage.png,img/RADAR/code.png"
                   class="sr-only reference-description">
-                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
-                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
-                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
-                    delicate an pleasant provided do perceive.</p>
-                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
-                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
-                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
-                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
-                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
-                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                  <p>Detect if an entered string is a Palindrome! Check if an entered text is the same backwards as it
+                    is forward.
+                    This app only compares Alphabetic characters and not numbers or special characters.
+                  </p>
+                  <p>This app is fully hosted for you to try or feel free to check out the raw code on GitHub.</p>
+                  <p class="buttons text-center">
+                    <a href="https://gl-radar.netlify.app/" class="btn btn-outline-primary" target="_blank">
+                      <i class="fa fa-globe"></i> Visit website</a>
+                    <a href="https://github.com/GLayton-TX/RADAR" class="btn btn-outline-primary" target="_blank">
+                      <i class="fa fa-download"></i> Go To Repo</a>
+                  </p>
                 </div>
               </div>
             </div>
-            <div data-category="other" class="reference-item col-lg-3 col-md-6">
-              <div class="reference"><a href="#"><img src="img/portfolio-6.jpg" alt="" class="img-fluid">
+            <!-- paymen-ator -->
+            <div data-category="javascript" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img/Paymen-ator/cashier.png" alt="Paymen-ator Logo" class="img-fluid" width="80%">
                   <div class="overlay">
                     <div class="inner">
-                      <h3 class="h4 reference-title">Project name 6</h3>
-                      <p>Short project description goes here...</p>
+                      <h3 class="h4 reference-title">Paymen-ator</h3>
+                      <p>JS Coding Challenge
+                        Amortization schedule.
+                      </p>
                     </div>
                   </div>
                 </a>
-                <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg"
-                  class="sr-only reference-description">
-                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
-                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
-                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
-                    delicate an pleasant provided do perceive.</p>
-                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
-                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
-                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
-                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
-                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
-                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                <div data-images="" class="sr-only reference-description">
+                  <p>Find out a monthly payment and get a full Amortization schedule. 
+                    Enter a loan term, Interest rate and an amount to borrow and let Paymen-ator do the rest.
+                  </p>
+                  <p>This app is fully hosted for you to try or feel free to check out the raw code on GitHub.</p>
+                  <p class="buttons text-center">
+                    <a href="https://paymen-ator.netlify.app/" class="btn btn-outline-primary" target="_blank">
+                      <i class="fa fa-globe"></i> Visit website</a>
+                    <a href="https://github.com/GLayton-TX/Paymen-ator" class="btn btn-outline-primary" target="_blank">
+                      <i class="fa fa-download"></i> Go To Repo</a>
+                  </p>
                 </div>
               </div>
             </div>
-            <div data-category="seo" class="reference-item col-lg-3 col-md-6">
-              <div class="reference"><a href="#"><img src="img/portfolio-7.jpg" alt="" class="img-fluid">
+            <!-- * template
+            <div data-category="*" class="reference-item col-lg-3 col-md-6">
+              <div class="reference"><a href="#"><img src="img/*.png" alt="* Logo"
+                    class="img-fluid" width="80%">
                   <div class="overlay">
                     <div class="inner">
-                      <h3 class="h4 reference-title">Project name</h3>
-                      <p>Short project description goes here...</p>
+                      <h3 class="h4 reference-title">*</h3>
+                      <p>*
+                      </p>
                     </div>
                   </div>
                 </a>
-                <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg"
+                <div data-images=""
                   class="sr-only reference-description">
-                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
-                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
-                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
-                    delicate an pleasant provided do perceive.</p>
-                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
-                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
-                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
-                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
-                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
-                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                  <p>*
+                  </p>
+                  <p>This app is fully hosted for you to try or feel free to check out the raw code on GitHub.</p>
+                  <p class="buttons text-center">
+                    <a href="https://*.netlify.app/" class="btn btn-outline-primary" target="_blank">
+                      <i class="fa fa-globe"></i> Visit website</a>
+                    <a href="https://github.com/GLayton-TX/*" class="btn btn-outline-primary" target="_blank">
+                      <i class="fa fa-download"></i> Go To Repo</a>
+                  </p>
                 </div>
               </div>
             </div>
-            <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
-              <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
-                  <div class="overlay">
-                    <div class="inner">
-                      <h3 class="h4 reference-title">Project name</h3>
-                      <p>Short project description goes here...</p>
-                    </div>
-                  </div>
-                </a>
-                <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg"
-                  class="sr-only reference-description">
-                  <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why
-                    cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye
-                    literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar
-                    delicate an pleasant provided do perceive.</p>
-                  <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection
-                    happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put
-                    ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen.
-                    Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                  <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i
-                        class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);"
-                      class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
-                </div>
-              </div>
-            </div>
+            -->
           </div>
         </div>
       </div>
@@ -586,6 +572,40 @@
   <!-- Map-->
   <div id="map">
   </div>
+  <footer class="footer mt-auto py-3 sticky-bottom">
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-lg-3 gy-2">
+        <div class="col order-last order-lg-first">
+          <div><span class="copyright">&copy;2022</span> Greg Layton | Greg@glayton.com</div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-start justify-content-lg-center">
+          <a href="https://glayton.com/">
+            <img src="img/Branding/fullLogoDark.svg" alt="Greg Layton Logo" height="36">
+          </a>
+        </div>
+        <div class="col d-flex align-items-center justify-content-start justify-content-lg-end">
+          <div class="row">
+            <div class="col social">
+              <a href="https://www.linkedin.com/in/greg-layton-tx39191" target="_blank">
+                <i class="fa fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+            <div class="col social">
+              <a href="https://github.com/GLayton-TX?tab=repositories" target="_blank">
+                <i class="fa fa-github fa-2x"></i>
+              </a>
+            </div>
+            <div class="col social">
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- 
   <footer class="main-footer">
     <div class="container">
       <div class="row">
@@ -596,7 +616,7 @@
                 class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i
                 class="fa fa-envelope"></i></a></p>
         </div>
-        <!-- /.6-->
+        <!-- /.6--
         <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
           <p>© 2022 Greg Layton. All rights reserved.</p>
         </div>
@@ -604,11 +624,12 @@
           <p class="template-bootstrapious">Template by <a
               href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a
               href="https://fity.cz/ostrava">Fity</a></p>
-          <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)--
         </div>
       </div>
     </div>
   </footer>
+   -->
   <!-- JavaScript files-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

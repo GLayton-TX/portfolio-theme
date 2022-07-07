@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="82.375mm"
+   width="355.58408mm"
    height="82.375mm"
-   viewBox="0 0 82.375 82.375"
+   viewBox="0 0 355.58408 82.375"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7779613"
-     inkscape:cx="328.33725"
-     inkscape:cy="-240.2805"
+     inkscape:cx="870.78066"
+     inkscape:cy="275.1693"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1440"
-     inkscape:window-x="5760"
-     inkscape:window-y="713"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="3832"
+     inkscape:window-y="689"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -52,14 +52,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(238.26556,-37.133976)">
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect841"
-       width="104.75028"
-       height="94.887436"
-       x="-143.1814"
-       y="26.621834" />
+     transform="translate(381.78705,-255.137)">
     <g
        transform="translate(-363.9052,-34.34993)"
        id="g855">
@@ -204,7 +197,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.91252136px;font-family:'Century Schoolbook';-inkscape-font-specification:'Century Schoolbook, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1;stroke-width:1.07281291">Greg Layton</tspan></text>
     </g>
     <g
-       transform="translate(143.52149,-208.82037)"
+       transform="translate(255.07374,-208.82037)"
        id="g947">
       <rect
          y="247.45435"

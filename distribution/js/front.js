@@ -155,6 +155,7 @@ $(function () {
                 slider.owlCarousel({
                     nav: false,
                     dots: true,
+                    // autoplay: true,
                     items: 1
                 });
 
